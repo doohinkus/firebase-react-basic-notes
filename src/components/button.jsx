@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 class Button extends Component {
   render(){
 
-    const saveEdit = this.props.isEditing
+    const buttons = this.props.isEditing
       ? <div>
           <button onClick={this.props.saveNote}>Save</button>
         </div>
@@ -14,8 +14,8 @@ class Button extends Component {
         </div>;
 
     return(
-      <div>
-        {saveEdit}
+      <div className="flex">
+        {buttons}
       </div>
     );
   }

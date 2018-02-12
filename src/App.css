@@ -72,6 +72,9 @@ button:hover {
   display: inline-block;
   width: 100%;
 }
+.flex{
+  display: flex;
+}
 .b-2{
   border-radius: .5em;
 }
