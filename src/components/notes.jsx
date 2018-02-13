@@ -44,7 +44,7 @@ class Note extends Component{
           updateNoteContent={this.updateNoteContent}
         />;
     return (
-      <div className="note fade-in b-2">
+      <div className="note fade-in">
         <div className="note-content">
           <div>
             {content}

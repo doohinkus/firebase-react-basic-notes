@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Maiden+Orange');
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange|Amatic+SC');
 
 html {
   font-size: 1em;
@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: 'Maiden Orange', cursive;
-  background-color: white;
+  background-color: #ff7eb9;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -35,8 +35,9 @@ small, .font_small {font-size: 0.8em;}
 header, footer{
   text-align: center;
 }
-input[type=text], select {
-    font-family: inherit;
+input[type=text], select, .note-input {
+    font-family: 'Amatic SC', cursive;
+    /*font-weight: bold;*/
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -44,24 +45,37 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 100%;
 }
 
 button {
     font-family: inherit;
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
+    /*font-family: 'Amatic SC', cursive;*/
+    font-size: 100%;
+    font-weight: bold;
+    width: 40%;
+    color: #444;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    background-color: #fff740;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #7afcff;
 }
+a{
+  padding: 1em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: #0084b4;
 
+}
+a:hover{
+  cursor: pointer;
+}
 .w-7{
   width: 70%;
 }
@@ -81,12 +95,16 @@ button:hover {
 .note{
   text-align: center;
   padding: 2em;
-  /*background: rgba(0, 0, 0, 0.5);*/
-  box-shadow: 0 0 15px #888;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 1.953em;
+  background: #feff9c;
+  box-shadow: 5px 5px 4px rgba(9, 9, 9, .3);
   margin: 1em auto;
 }
 .note-content{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 

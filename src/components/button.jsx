@@ -6,15 +6,15 @@ class Button extends Component {
 
     const buttons = this.props.isEditing
       ? <div>
-          <button onClick={this.props.saveNote}>Save</button>
+          <a onClick={this.props.saveNote}>Save</a>
         </div>
       : <div>
-          <button onClick={this.props.editNote}>Edit</button>
-          <button onClick={this.props.deleteNote}>Delete</button>
+          <a onClick={this.props.editNote}>Edit</a>
+          <a onClick={this.props.deleteNote}>Delete</a>
         </div>;
 
     return(
-      <div className="flex">
+      <div className="flex m-auto">
         {buttons}
       </div>
     );
