@@ -6,11 +6,11 @@ class Button extends Component {
 
     const buttons = this.props.isEditing
       ? <div>
-          <a onClick={this.props.saveNote}>Save</a>
+          <button onClick={this.props.saveNote}>Save</button>
         </div>
       : <div>
-          <a onClick={this.props.editNote}>Edit</a>
-          <a onClick={this.props.deleteNote}>Delete</a>
+          <button onClick={this.props.editNote}>Edit</button>
+          <button onClick={this.props.deleteNote}>Delete</button>
         </div>;
 
     return(

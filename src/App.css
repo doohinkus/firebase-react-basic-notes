@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: 'Maiden Orange', cursive;
-  background-color: #ff7eb9;
+  background-color: #efefef;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -36,12 +36,12 @@ header, footer{
   text-align: center;
 }
 input[type=text], select, .note-input {
-    font-family: 'Amatic SC', cursive;
+    font-family: inherit;
     /*font-weight: bold;*/
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+    width: 70%;
+    padding: .25em;
+    margin: .5em auto;
+    /*display: inline-block;*/
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -49,16 +49,18 @@ input[type=text], select, .note-input {
 }
 
 button {
+  /*font-family: 'Maiden Orange', cursive;*/
+
     font-family: inherit;
     /*font-family: 'Amatic SC', cursive;*/
     font-size: 100%;
     font-weight: bold;
-    width: 40%;
+    /*width: 40%;*/
     color: #444;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: .5em;
+    margin: .25em;
     border: none;
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     cursor: pointer;
     background-color: #fff740;
 }
@@ -94,18 +96,21 @@ a:hover{
 }
 .note{
   text-align: center;
-  padding: 2em;
-  font-family: 'Amatic SC', cursive;
+  padding: 1em;
+  font-family: inherit;
   font-weight: bold;
   font-size: 1.953em;
-  background: #feff9c;
-  box-shadow: 5px 5px 4px rgba(9, 9, 9, .3);
-  margin: 1em auto;
+  margin: .5em auto;
 }
 .note-content{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: #feff9c;
+  box-shadow: 5px 5px 4px rgba(9, 9, 9, .3);
+}
+.note-content div{
+    margin: .5em auto;
 }
 
 .form{
