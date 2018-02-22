@@ -7,4 +7,4 @@
 `npm install`
 * command line
 `npm start`
-## [View project on surge] (http://oval-kitty.surge.sh/) 
+## (http://oval-kitty.surge.sh/) 
