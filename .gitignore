@@ -1,7 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 #api keys for firebase
-/config
+/src/config
 
 # dependencies
 /node_modules
