@@ -1,0 +1,10 @@
+33769fb4c8ff47f6649a788ca80e5080
+// import Note from '../../src/components/notes.js';
+
+describe('edit', () => {
+  it('should set isEditing to true', () => {
+    // expect().toEqual({
+    //   isEditing: true
+    // })
+  });
+});
