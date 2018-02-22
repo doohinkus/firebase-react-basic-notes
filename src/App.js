@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './App.css';
 import Note  from './components/notes';
 import Form from "./components/form";

@@ -6,7 +6,8 @@
     "firebase": "^4.9.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
